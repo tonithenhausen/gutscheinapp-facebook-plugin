@@ -6,8 +6,8 @@
 		<copy todir="../ant-gen/com">
 			<fileset dir="ant-gen/com"/>
 		</copy>    
-		<copy todir="../res">
-			<fileset dir="res"/>
+		<copy todir="../ant-build/res">
+			<fileset dir="ant-build/res"/>
 		</copy>      
     </target>
 </project>
