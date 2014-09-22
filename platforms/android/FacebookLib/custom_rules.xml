@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <target name="-pre-compile">
+    </target>
+    <target name="-post-build">
+		<copy todir="../ant-build/com">
+			<fileset dir="ant-build/com"/>
+		</copy>        
+    </target>
+</project>
+
