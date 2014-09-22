@@ -5,7 +5,10 @@
     <target name="-post-build">
 		<copy todir="../ant-gen/com">
 			<fileset dir="ant-gen/com"/>
-		</copy>        
+		</copy>    
+		<copy todir="../res">
+			<fileset dir="res"/>
+		</copy>      
     </target>
 </project>
 
