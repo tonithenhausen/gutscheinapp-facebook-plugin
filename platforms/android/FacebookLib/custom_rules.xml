@@ -7,7 +7,7 @@
 			<fileset dir="ant-gen/com"/>
 		</copy>    
 		<copy todir="../ant-build/res">
-			<fileset dir="ant-build/res"/>
+			<fileset dir="res"/>
 		</copy>      
     </target>
 </project>
